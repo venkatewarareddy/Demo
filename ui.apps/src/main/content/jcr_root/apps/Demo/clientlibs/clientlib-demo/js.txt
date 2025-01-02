@@ -1,0 +1,4 @@
+#base=js
+main.js
+theme-bundle.js
+vendor-bundle.js

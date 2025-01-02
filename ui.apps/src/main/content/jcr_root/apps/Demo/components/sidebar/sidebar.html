@@ -1,0 +1,10 @@
+<sly data-sly-use.sidebar="com.adobe.aem.guides.demo.core.models.SideBarModel">
+   <img src="${sidebar.logoPath}"/>
+    <img src="${sidebar.logoMobileImage}"/>
+     <div>${sidebar.logoLink}</div>
+     <div>${sidebar.enableSwitch}</div>
+<sly data-sly-list.links="${sidebar.headerLinks}">
+    <h1>${links.name}</h1>
+    <img src="${links.image}"/>
+</sly>
+</sly>

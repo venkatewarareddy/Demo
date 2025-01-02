@@ -1,0 +1,12 @@
+<div>
+<div data-sly-resource="${ 'accordian' @ resourceType='Demo/components/accordion' }"></div> 
+<h2>${properties.authorName}</h2>
+<img src="${properties.authorImage}"/>
+<p>${properties.aboutAuthor}</p>
+<h3>${'dd-MM-yyyy' @format=properties.authorDob}</h3>
+<h3>${properties.gender}</h3>
+<h4>${properties.numOfArticles}</h4>
+<h4>${properties.isAlive}</h4>
+
+<div>${article.articleLists}</div>
+</div>

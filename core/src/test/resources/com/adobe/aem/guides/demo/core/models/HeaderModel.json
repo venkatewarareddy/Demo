@@ -1,0 +1,21 @@
+{
+  "basic-header":{
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "isActive": "true",
+    "jcr:created": "Thu Jan 02 2025 13:03:36 GMT+0530",
+    "image": "/content/dam/Demo/asset.jpg",
+    "title": "KALKI",
+    "jcr:lastModified": "Thu Jan 02 2025 13:04:14 GMT+0530",
+    "sling:resourceType": "Demo/components/basic-header",
+    "techs": {
+      "jcr:primaryType": "nt:unstructured",
+      "item0": {
+        "jcr:primaryType": "nt:unstructured",
+        "text": "Venkat",
+        "booksubject": "aem"
+      }
+    }
+  }
+}

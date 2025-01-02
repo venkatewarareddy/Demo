@@ -1,0 +1,13 @@
+<sly data-sly-use.basicHeader="com.adobe.aem.guides.demo.core.models.HeaderModel"/>
+
+        <h2>${basicHeader.title}</h2>
+        <img src="${basicHeader.image}"/>
+        <h2>${basicHeader.isActive}</h2>
+
+<sly data-sly-list="${basicHeader.linksMaps}">
+    <h1>${item.text}</h1>
+    <h1>${item.booksubject}</h1>
+
+</sly>
+
+

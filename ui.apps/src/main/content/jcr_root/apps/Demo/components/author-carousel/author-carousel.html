@@ -1,0 +1,11 @@
+<sly data-sly-use.surgeModel="com.adobe.aem.guides.demo.core.models.Surgemodel">
+
+<sly data-sly-list ="${surge.carouselDetails}">
+
+<h2>${item.carouselTitle}</h2>
+<h3>${item.carouselImage}</h3>
+<div data-sly-list.hp="${item.carouselIcon}">
+<h2>${hp.title}</h2>
+</div>
+</sly>
+</sly>

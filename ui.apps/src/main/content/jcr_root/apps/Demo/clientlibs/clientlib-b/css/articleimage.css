@@ -1,0 +1,10 @@
+.article-date,.links{
+        padding:20px 30px 30px 40px;
+        font-size:50px;
+       background-color:green;
+    }
+.article-image{
+        height:30%;
+        width:80%;
+    }
+

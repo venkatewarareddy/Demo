@@ -1,0 +1,13 @@
+<div  data-sly-use.article="com.adobe.aem.guides.demo.core.models.ArticleBookModel">
+
+      <h1>${article.articlename}</h1>
+
+---------------------------------------------------------------------------
+      <div data-sly-list.book="${article.bookDetailsWithMap}">
+        ---------------Book : ${bookList.count}--------------
+        <p> Book : <b>${book.bookname} </b></p>
+        <p> Subject : <b>${book.copies}</b> </p>
+        <p> Publish : <b>${'MMM dd,yyyy' @ format=book.publishdate}</b> </p>
+    </div>
+</div>
+
