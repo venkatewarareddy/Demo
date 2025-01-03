@@ -1,9 +1,6 @@
 package com.adobe.aem.guides.demo.core.schedulers;
 
 import com.day.cq.replication.Replicator;
-import com.day.cq.replication.ReplicationActionType;
-import com.day.cq.replication.ReplicationException;
-
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;

@@ -1,7 +1,6 @@
 package com.adobe.aem.guides.demo.core.schedulers;
 
 import org.osgi.service.metatype.annotations.AttributeDefinition;
-import org.osgi.service.metatype.annotations.AttributeType;
 import org.osgi.service.metatype.annotations.ObjectClassDefinition;
 
 @ObjectClassDefinition(name="OfferExpiryConfiguration",description = "About OfferExpiryConfiguration")
